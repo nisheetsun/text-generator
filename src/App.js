@@ -48,7 +48,7 @@ export default class Canvas extends React.Component {
         {/*<div style={{width:'100%'}}>
                   <Button style={{marginLeft: "47%", width: 50, fontSize: 10}} onClick={()=>{this.api()}} size="sm" variant="outline-secondary">Next</Button>{' '}
                 </div>*/}
-          <div className="shadow" style={{marginTop: 10, width: '47%', marginLeft: 'auto', marginRight: 'auto', backgroundColor:"#FFFFFF", fontSize: 10, paddingBottom: 400 }}>
+          <div className="shadow" style={{marginTop: 10, width: 400, marginLeft: 'auto', marginRight: 'auto', backgroundColor:"#FFFFFF", fontSize: 10, paddingBottom: 400 }}>
             <div style={{marginLeft:50, marginRight: 50}}>
             <div style={{paddingTop: 60}}>
             {this.state.text}
